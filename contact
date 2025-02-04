@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills - Emily Helmboldt</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fce4ec;
+            background-image: url('https://www.publicdomainpictures.net/pictures/320000/velka/floral-background.jpg');
+            background-size: cover;
+            background-position: center;
+            margin: 0;
+            padding: 20px;
+            color: #c2185b;
+        }
+        header {
+            text-align: center;
+            background-color: #ff80ab;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+        }
+        nav {
+            text-align: center;
+            background-color: #ffb3c1;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a.active {
+            text-decoration: underline;
+        }
+        .content {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+        ul {
+            text-align: left;
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin: 10px 0;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #ffb3c1;
+            color: white;
+        }
+        @media (max-width: 600px) {
+            nav {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            nav a {
+                margin: 5px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>Skills</header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="work.html">My Work</a>
+        <a href="hire.html">Why Hire Me</a>
+        <a href="skills.html" class="active">Skills</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <div class="content">
+        <h2>My Skills</h2>
+        <ul>
+            <li>📚 Curriculum Design & Development</li>
+            <li>📖 Lesson Planning & Instruction</li>
+            <li>✍️ Academic & Creative Writing</li>
+            <li>🔍 Editing & Proofreading</li>
+            <li>🏛️ Education Policy & Reform Advocacy</li>
+            <li>🎤 Workshop & Public Speaking</li>
+            <li>🎓 Student Engagement Strategies</li>
+            <li>📑 Content Development & Research</li>
+            <li>🤝 Collaborative Teaching Methods</li>
+            <li>📊 Assessment & Evaluation Techniques</li>
+        </ul>
+    </div>
+    <div class="footer">
+        &copy; 2025 Emily Helmboldt | All Rights Reserved
+    </div>
+</body>
+</html>
